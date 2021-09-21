@@ -1,0 +1,419 @@
+﻿  car_num_recgnize.cpp
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\details\ie_exception.hpp(66): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“InferenceEngine::details::InferenceEngineException”的基
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vcruntime_exception.h(44): note: 参见“std::exception”的声明
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\details\ie_exception.hpp(66): note: 参见“InferenceEngine::details::InferenceEngineException”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\details\ie_exception.hpp(67): warning C4251: “InferenceEngine::details::InferenceEngineException::errorDesc”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::details::InferenceEngineException”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\details\ie_exception.hpp(69): warning C4251: “InferenceEngine::details::InferenceEngineException::_file”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::details::InferenceEngineException”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\details\ie_exception.hpp(71): warning C4251: “InferenceEngine::details::InferenceEngineException::exception_stream”: class“std::shared_ptr<std::stringstream>”需要有 dll 接口由 class“InferenceEngine::details::InferenceEngineException”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\details\ie_exception.hpp(71): note: 参见“std::shared_ptr<std::stringstream>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layouts.h(137): warning C4251: “InferenceEngine::BlockingDesc::blockedDims”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layouts.h(139): warning C4251: “InferenceEngine::BlockingDesc::strides”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layouts.h(141): warning C4251: “InferenceEngine::BlockingDesc::order”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layouts.h(144): warning C4251: “InferenceEngine::BlockingDesc::offsetPaddingToData”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::BlockingDesc”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layouts.h(310): warning C4251: “InferenceEngine::TensorDesc::dims”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::TensorDesc”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layouts.h(314): warning C4251: “InferenceEngine::TensorDesc::precision”: class“InferenceEngine::Precision”需要有 dll 接口由 class“InferenceEngine::TensorDesc”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_precision.hpp(22): note: 参见“InferenceEngine::Precision”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_data.h(166): warning C4251: “InferenceEngine::Data::creatorLayer”: class“std::weak_ptr<InferenceEngine::CNNLayer>”需要有 dll 接口由 class“InferenceEngine::Data”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(43): note: 参见“std::weak_ptr<InferenceEngine::CNNLayer>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_data.h(171): warning C4251: “InferenceEngine::Data::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::Data”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_data.h(177): warning C4251: “InferenceEngine::Data::inputTo”: class“std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“InferenceEngine::Data”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=InferenceEngine::CNNLayerPtr
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_data.h(155): note: 参见“std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=InferenceEngine::CNNLayerPtr
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(42): warning C4251: “InferenceEngine::LayerParams::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“InferenceEngine::LayerParams”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(47): warning C4251: “InferenceEngine::LayerParams::type”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“InferenceEngine::LayerParams”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(52): warning C4251: “InferenceEngine::LayerParams::precision”: class“InferenceEngine::Precision”需要有 dll 接口由 struct“InferenceEngine::LayerParams”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_precision.hpp(22): note: 参见“InferenceEngine::Precision”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(91): warning C4251: “InferenceEngine::CNNLayer::node”: class“std::shared_ptr<ngraph::Node>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(91): note: 参见“std::shared_ptr<ngraph::Node>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(103): warning C4251: “InferenceEngine::CNNLayer::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(108): warning C4251: “InferenceEngine::CNNLayer::type”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(113): warning C4251: “InferenceEngine::CNNLayer::precision”: class“InferenceEngine::Precision”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_precision.hpp(22): note: 参见“InferenceEngine::Precision”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(118): warning C4251: “InferenceEngine::CNNLayer::outData”: class“std::vector<InferenceEngine::DataPtr,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::DataPtr
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(118): note: 参见“std::vector<InferenceEngine::DataPtr,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=InferenceEngine::DataPtr
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(123): warning C4251: “InferenceEngine::CNNLayer::insData”: class“std::vector<InferenceEngine::DataWeakPtr,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::DataWeakPtr
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(123): note: 参见“std::vector<InferenceEngine::DataWeakPtr,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=InferenceEngine::DataWeakPtr
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(129): warning C4251: “InferenceEngine::CNNLayer::_fusedWith”: class“std::shared_ptr<InferenceEngine::CNNLayer>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(39): note: 参见“std::shared_ptr<InferenceEngine::CNNLayer>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(140): warning C4251: “InferenceEngine::CNNLayer::affinity”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(367): warning C4251: “InferenceEngine::CNNLayer::params”: class“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(367): note: 参见“std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(372): warning C4251: “InferenceEngine::CNNLayer::blobs”: class“std::map<std::string,InferenceEngine::Blob::Ptr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“InferenceEngine::CNNLayer”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=InferenceEngine::Blob::Ptr
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_blob.h(464): note: 参见“std::map<std::string,InferenceEngine::Blob::Ptr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=InferenceEngine::Blob::Ptr
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(405): warning C4251: “InferenceEngine::WeightableLayer::_weights”: class“std::shared_ptr<InferenceEngine::Blob>”需要有 dll 接口由 class“InferenceEngine::WeightableLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_blob.h(42): note: 参见“std::shared_ptr<InferenceEngine::Blob>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(409): warning C4251: “InferenceEngine::WeightableLayer::_biases”: class“std::shared_ptr<InferenceEngine::Blob>”需要有 dll 接口由 class“InferenceEngine::WeightableLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_blob.h(42): note: 参见“std::shared_ptr<InferenceEngine::Blob>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): warning C4251: “InferenceEngine::ConvolutionLayer::_kernel”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::ConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(440): warning C4251: “InferenceEngine::ConvolutionLayer::_padding”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::ConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(444): warning C4251: “InferenceEngine::ConvolutionLayer::_pads_end”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::ConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(448): warning C4251: “InferenceEngine::ConvolutionLayer::_stride”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::ConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(452): warning C4251: “InferenceEngine::ConvolutionLayer::_dilation”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::ConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(464): warning C4251: “InferenceEngine::ConvolutionLayer::_auto_pad”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::ConvolutionLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(545): warning C4251: “InferenceEngine::PoolingLayer::_kernel”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::PoolingLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(549): warning C4251: “InferenceEngine::PoolingLayer::_padding”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::PoolingLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(553): warning C4251: “InferenceEngine::PoolingLayer::_pads_end”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::PoolingLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(557): warning C4251: “InferenceEngine::PoolingLayer::_stride”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::PoolingLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(577): warning C4251: “InferenceEngine::PoolingLayer::_auto_pad”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::PoolingLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(648): warning C4251: “InferenceEngine::BinaryConvolutionLayer::_kernel”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::BinaryConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(652): warning C4251: “InferenceEngine::BinaryConvolutionLayer::_padding”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::BinaryConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(656): warning C4251: “InferenceEngine::BinaryConvolutionLayer::_pads_end”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::BinaryConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(660): warning C4251: “InferenceEngine::BinaryConvolutionLayer::_stride”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::BinaryConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(664): warning C4251: “InferenceEngine::BinaryConvolutionLayer::_dilation”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::BinaryConvolutionLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(676): warning C4251: “InferenceEngine::BinaryConvolutionLayer::_auto_pad”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::BinaryConvolutionLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(989): warning C4251: “InferenceEngine::EltwiseLayer::coeff”: class“std::vector<float,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::EltwiseLayer”的客户端使用
+          with
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_icnn_network_stats.hpp(101): note: 参见“std::vector<float,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=float
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1008): warning C4251: “InferenceEngine::CropLayer::axis”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::CropLayer”的客户端使用
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(268): note: 参见“std::vector<int,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1012): warning C4251: “InferenceEngine::CropLayer::dim”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::CropLayer”的客户端使用
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(268): note: 参见“std::vector<int,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1016): warning C4251: “InferenceEngine::CropLayer::offset”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::CropLayer”的客户端使用
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(268): note: 参见“std::vector<int,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1035): warning C4251: “InferenceEngine::ReshapeLayer::shape”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::ReshapeLayer”的客户端使用
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(268): note: 参见“std::vector<int,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1047): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1123): warning C4251: “InferenceEngine::TensorIterator::input_port_map”: class“std::vector<InferenceEngine::TensorIterator::PortMap,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::TensorIterator”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::TensorIterator::PortMap
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1123): note: 参见“std::vector<InferenceEngine::TensorIterator::PortMap,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=InferenceEngine::TensorIterator::PortMap
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1124): warning C4251: “InferenceEngine::TensorIterator::output_port_map”: class“std::vector<InferenceEngine::TensorIterator::PortMap,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::TensorIterator”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::TensorIterator::PortMap
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1123): note: 参见“std::vector<InferenceEngine::TensorIterator::PortMap,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=InferenceEngine::TensorIterator::PortMap
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1125): warning C4251: “InferenceEngine::TensorIterator::back_edges”: class“std::vector<InferenceEngine::TensorIterator::PortMap,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::TensorIterator”的客户端使用
+          with
+          [
+              _Ty=InferenceEngine::TensorIterator::PortMap
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1123): note: 参见“std::vector<InferenceEngine::TensorIterator::PortMap,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=InferenceEngine::TensorIterator::PortMap
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1174): warning C4251: “InferenceEngine::RNNCellBase::activations”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::RNNCellBase”的客户端使用
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(362): note: 参见“std::vector<std::string,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=std::string
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1181): warning C4251: “InferenceEngine::RNNCellBase::activation_alpha”: class“std::vector<float,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::RNNCellBase”的客户端使用
+          with
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_icnn_network_stats.hpp(101): note: 参见“std::vector<float,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=float
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1188): warning C4251: “InferenceEngine::RNNCellBase::activation_beta”: class“std::vector<float,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::RNNCellBase”的客户端使用
+          with
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_icnn_network_stats.hpp(101): note: 参见“std::vector<float,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=float
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1494): warning C4251: “InferenceEngine::PadLayer::pads_begin”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::PadLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1498): warning C4251: “InferenceEngine::PadLayer::pads_end”: class“InferenceEngine::PropertyVector<unsigned int,12>”需要有 dll 接口由 class“InferenceEngine::PadLayer”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(436): note: 参见“InferenceEngine::PropertyVector<unsigned int,12>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1547): warning C4251: “InferenceEngine::StridedSliceLayer::begin_mask”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::StridedSliceLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1551): warning C4251: “InferenceEngine::StridedSliceLayer::end_mask”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::StridedSliceLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1556): warning C4251: “InferenceEngine::StridedSliceLayer::ellipsis_mask”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::StridedSliceLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1561): warning C4251: “InferenceEngine::StridedSliceLayer::new_axis_mask”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::StridedSliceLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1566): warning C4251: “InferenceEngine::StridedSliceLayer::shrink_axis_mask”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::StridedSliceLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1652): warning C4251: “InferenceEngine::SpaceToBatchLayer::_block_shape”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::SpaceToBatchLayer”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1657): warning C4251: “InferenceEngine::SpaceToBatchLayer::_pads_begin”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::SpaceToBatchLayer”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1661): warning C4251: “InferenceEngine::SpaceToBatchLayer::_pads_end”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::SpaceToBatchLayer”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1682): warning C4251: “InferenceEngine::BatchToSpaceLayer::_block_shape”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::BatchToSpaceLayer”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1688): warning C4251: “InferenceEngine::BatchToSpaceLayer::_crops_begin”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::BatchToSpaceLayer”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1694): warning C4251: “InferenceEngine::BatchToSpaceLayer::_crops_end”: class“std::vector<size_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::BatchToSpaceLayer”的客户端使用
+          with
+          [
+              _Ty=size_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(29): note: 参见“std::vector<size_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=size_t
+          ]
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1981): warning C4251: “InferenceEngine::TopKLayer::mode”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::TopKLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_layers.h(1985): warning C4251: “InferenceEngine::TopKLayer::sort”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InferenceEngine::TopKLayer”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_iextension.h(274): warning C4275: 非 dll 接口 class“InferenceEngine::IShapeInferExtension”用作 dll 接口 class“InferenceEngine::IExtension”的基
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_iextension.h(213): note: 参见“InferenceEngine::IShapeInferExtension”的声明
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_iextension.h(274): note: 参见“InferenceEngine::IExtension”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_icnn_network.hpp(43): warning C4275: 非 dll 接口 class“InferenceEngine::details::IRelease”用作 dll 接口 class“InferenceEngine::ICNNNetwork”的基
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\details\ie_irelease.hpp(22): note: 参见“InferenceEngine::details::IRelease”的声明
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_icnn_network.hpp(43): note: 参见“InferenceEngine::ICNNNetwork”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\cpp\ie_cnn_network.h(300): warning C4251: “InferenceEngine::CNNNetwork::reader”: class“std::shared_ptr<InferenceEngine::ICNNNetReader>”需要有 dll 接口由 class“InferenceEngine::CNNNetwork”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\cpp\ie_cnn_network.h(69): note: 参见“std::shared_ptr<InferenceEngine::ICNNNetReader>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\cpp\ie_cnn_network.h(305): warning C4251: “InferenceEngine::CNNNetwork::network”: class“std::shared_ptr<InferenceEngine::ICNNNetwork>”需要有 dll 接口由 class“InferenceEngine::CNNNetwork”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_icnn_network.hpp(48): note: 参见“std::shared_ptr<InferenceEngine::ICNNNetwork>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\cpp\ie_cnn_network.h(314): warning C4251: “InferenceEngine::CNNNetwork::output”: class“std::shared_ptr<InferenceEngine::Data>”需要有 dll 接口由 class“InferenceEngine::CNNNetwork”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_common.h(53): note: 参见“std::shared_ptr<InferenceEngine::Data>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_extension.h(199): warning C4251: “InferenceEngine::Extension::actual”: class“InferenceEngine::details::SOPointer<InferenceEngine::IExtension,InferenceEngine::details::SharedObjectLoader>”需要有 dll 接口由 class“InferenceEngine::Extension”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_extension.h(199): note: 参见“InferenceEngine::details::SOPointer<InferenceEngine::IExtension,InferenceEngine::details::SharedObjectLoader>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_plugin.hpp(79): warning C4275: 非 dll 接口 class“InferenceEngine::details::IRelease”用作 dll 接口 class“InferenceEngine::IInferencePlugin”的基
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\details\ie_irelease.hpp(22): note: 参见“InferenceEngine::details::IRelease”的声明
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_plugin.hpp(78): note: 参见“InferenceEngine::IInferencePlugin”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_core.hpp(31): warning C4251: “InferenceEngine::Core::_impl”: class“std::shared_ptr<InferenceEngine::Core::Impl>”需要有 dll 接口由 class“InferenceEngine::Core”的客户端使用
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_core.hpp(31): note: 参见“std::shared_ptr<InferenceEngine::Core::Impl>”的声明
+c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_plugin_dispatcher.hpp(66): warning C4251: “InferenceEngine::PluginDispatcher::pluginDirs”: class“std::vector<file_name_t,std::allocator<_Ty>>”需要有 dll 接口由 class“InferenceEngine::PluginDispatcher”的客户端使用
+          with
+          [
+              _Ty=file_name_t
+          ]
+  c:\program files (x86)\intelswtools\openvino_2020.3.341\deployment_tools\inference_engine\include\ie_plugin_dispatcher.hpp(32): note: 参见“std::vector<file_name_t,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=file_name_t
+          ]
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(67): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(85): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(85): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(86): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(86): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(172): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(179): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\vcworkplace\openvino2020\car_deteation\car_num_recgnize.cpp(185): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  39 of 712 functions ( 5.5%) were compiled, the rest were copied from previous compilation.
+    11 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  car_deteation.vcxproj -> E:\vcworkplace\openvino2020\x64\Release\car_deteation.exe
